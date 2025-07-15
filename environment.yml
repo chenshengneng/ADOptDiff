@@ -1,4 +1,4 @@
-name: myDiffDec
+name: ADOptDiff
 channels:
   - pyg
   - pytorch
