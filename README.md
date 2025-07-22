@@ -1,4 +1,5 @@
 # ADOptDiff - An Affinity Driven R-chain Diffusion Model for Lead Compounds Optimization
+ADOptDiff is a diffusion model that automatically modifies chemical scaffolds to enhance the binding affinity between molecules and their targets.
 ## Install conda environment via conda yaml file
 ```bash
 conda env create -f environment.yaml
@@ -6,11 +7,15 @@ conda env create -f environment.yaml
 ## Datasets
 
 ## Training
-To train a model.
 ```bash
 python train.py --config configs/ADOptDiff.yml
 ```
 ## Sampling
+Modify each sample in the test set 100 times.
 ```bash
 bash sample.sh
+```
+## Evaluation
+```bash
+bash evaluate.sh
 ```
