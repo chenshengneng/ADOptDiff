@@ -3,6 +3,5 @@
 <img src="图片位置" alt="architecture"/> 
 </p>
 ## Install conda environment via conda yaml file
-```bash
-conda env create -f environment.yaml
-```
+'''bash
+conda env create -f environment.yaml'''
