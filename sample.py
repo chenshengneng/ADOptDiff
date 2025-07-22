@@ -4,7 +4,7 @@ import os
 import torch
 
 from src import utils
-from src.model_multi import DDPM
+from src.model import DDPM
 from src.visualizer import save_xyz_file, save_xyz_file_fa
 from src.datasets import collate_mr, MultiRDataset_anchor
 from tqdm import tqdm
