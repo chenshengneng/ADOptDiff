@@ -85,7 +85,7 @@ def compute_kl(p_vals, q_vals, bins=180, range_=(0, 180)):
     return entropy(p_hist, q_hist)
 
 # === 主评估函数 ===
-def evaluate_kl(test_sdf_csv, gen_root_path, root_dir='/public/home/chensn/diffdec/DiffDec-master/try_model_data/', debug=False):
+def evaluate_kl(test_sdf_csv, gen_root_path, root_dir='/path/to/data/', debug=False):
     df = pd.read_csv(test_sdf_csv)
     index = list(df[['ligand_path']].itertuples(index=False, name=None))
 
