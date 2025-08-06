@@ -6,7 +6,7 @@ ADOptDiff is a diffusion model that automatically modifies chemical scaffolds to
 conda env create -f environment.yaml
 ```
 ## Datasets
-The pre-processed data has been placed in the data/data directory. The raw data and the corresponding processing methods will be made public as soon as possible.
+The pre-processed data has been placed in the data/data directory. It should be noted that, due to the large size of the training set files, they have been split into multiple compressed parts for upload. To train the model, please decompress them and merge into a single file. The raw data and the corresponding processing methods will be made publicly available as soon as possible.
 ## Training
 ```bash
 python train.py --config configs/ADOptDiff.yml
